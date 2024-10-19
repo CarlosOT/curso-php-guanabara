@@ -14,5 +14,9 @@
     <p>
         Vamos nos livrar da maldição
     </p>
+        <?php 
+            $nome = "Carlos";
+            echo "Meu nome é $nome"
+        ?>
 </body>
 </html>
