@@ -12,8 +12,9 @@
         $nome = "Carlos";
         $anoNascimento = 1996;
         $idade = date("Y") - $anoNascimento;
+        const PAIS = "Brasil";
     ?>
     <p><?php echo "Hoje é dia " . date("d/m/Y") . " / " . "Hora atual: " . date("G:i:s");?></p>
-    <p><?php echo "Meu nome é $nome e minha idade é $idade anos"?></p>
+    <p><?php echo "Meu nome é $nome e minha idade é $idade anos. E eu moro no " . PAIS ?></p>
 </body>
 </html>
