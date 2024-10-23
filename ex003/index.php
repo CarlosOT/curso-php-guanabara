@@ -16,8 +16,9 @@
         // $v = "Carlos";
         // var_dump($v);
 
-        $num = 3e2; // 3 x 10(2)
+        $num = (int) 3e2; // 3 x 10(2)
         echo "O valor é $num";
+        var_dump($num)
 
     ?>
 </body>
