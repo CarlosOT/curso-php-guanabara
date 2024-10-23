@@ -24,8 +24,13 @@
         // $num = (int)"950"; //coerção
         // var_dump($num);
 
-        $num = (float) "1000";
-        var_dump($num);
+        // $num = (float) "1000";
+        // var_dump($num);
+
+        $casado = true;
+        // var_dump($casado);
+        print "O valor para casado é $casado"
+
 
     ?>
 </body>
