@@ -13,8 +13,11 @@
         // $num = 010;
         // echo "O valor da variável é $num";
 
-        $v = "Carlos";
-        var_dump($v);
+        // $v = "Carlos";
+        // var_dump($v);
+
+        $num = 3e2; // 3 x 10(2)
+        echo "O valor é $num";
 
     ?>
 </body>
