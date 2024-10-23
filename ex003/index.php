@@ -17,9 +17,12 @@
         // var_dump($v);
 
         //$num = (int) 3e2; // 3 x 10(2)
-        $num = (integer) 3e2;
-        echo "O valor é $num ";
-        var_dump($num)
+        // $num = (integer) 3e2;
+        // echo "O valor é $num ";
+        // var_dump($num)
+
+        $num = (int)"950";
+        var_dump($num);
 
     ?>
 </body>
