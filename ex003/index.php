@@ -16,12 +16,15 @@
         // $v = "Carlos";
         // var_dump($v);
 
-        //$num = (int) 3e2; // 3 x 10(2)
+        // $num = (int) 3e2; // 3 x 10(2)
         // $num = (integer) 3e2;
         // echo "O valor é $num ";
         // var_dump($num)
 
-        $num = (int)"950";
+        // $num = (int)"950"; //coerção
+        // var_dump($num);
+
+        $num = (float) "1000";
         var_dump($num);
 
     ?>
