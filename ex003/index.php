@@ -27,7 +27,7 @@
         // $num = (float) "1000";
         // var_dump($num);
 
-        $casado = true;
+        $casado = true; //false no PHP é vazio
         // var_dump($casado);
         print "O valor para casado é $casado"
 
