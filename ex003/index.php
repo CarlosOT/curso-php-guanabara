@@ -27,9 +27,12 @@
         // $num = (float) "1000";
         // var_dump($num);
 
-        $casado = true; //false no PHP é vazio
+        // $casado = true; //false no PHP é vazio
         // var_dump($casado);
-        print "O valor para casado é $casado"
+        // print "O valor para casado é $casado"
+
+        $vet = [6,2.5,9,"joão",false];
+        var_dump($vet);
 
 
     ?>
